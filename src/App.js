@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
 
-function App() {
+const width = 8
+const colors = [
+	'blue',
+	'green',
+	'orange',
+	'purple',
+	'red',
+	'yellow'
+]
+
+export default function App() {
+	const [colorsArrangement, setColorsArrangement] = useState([])
+
+	const checkForColumnOfThree = () => {
+		for(let i = 0; i < 47; i++) {
+			const columnOfThree = [i, i + width, i + width * 2]
+			const decidedCOlor = colorsArrangement[i]
+		}
+	}
+
+	const board = () => {
+		const randomBoard = []
+		for(let i = 0; i < width * width; i++) {
+			randomBoard.push(colors[Math.floor(Math.random() * colors.length)])
+		}
+		setColorsArrangement(randomBoard)
+	}
+
+	useEffect(() => { board() },[])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+			<div className="game">
+				{colorsArrangement.map((item, index) => (
+					<img
+						key={index}
+						style={{background: item}}
+						alt={item + " " + index}
+					/>
+				))}
+			</div>
     </div>
   );
 }
-
-export default App;
