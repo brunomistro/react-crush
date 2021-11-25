@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-crush/static/css/main.9e5cca86.chunk.css",
+    "main.js": "/react-crush/static/js/main.e9b25e75.chunk.js",
+    "main.js.map": "/react-crush/static/js/main.e9b25e75.chunk.js.map",
+    "runtime-main.js": "/react-crush/static/js/runtime-main.3f592fe4.js",
+    "runtime-main.js.map": "/react-crush/static/js/runtime-main.3f592fe4.js.map",
+    "static/js/2.1f2f9eda.chunk.js": "/react-crush/static/js/2.1f2f9eda.chunk.js",
+    "static/js/2.1f2f9eda.chunk.js.map": "/react-crush/static/js/2.1f2f9eda.chunk.js.map",
+    "index.html": "/react-crush/index.html",
+    "static/css/main.9e5cca86.chunk.css.map": "/react-crush/static/css/main.9e5cca86.chunk.css.map",
+    "static/js/2.1f2f9eda.chunk.js.LICENSE.txt": "/react-crush/static/js/2.1f2f9eda.chunk.js.LICENSE.txt",
+    "static/media/blank.fbcb9179.png": "/react-crush/static/media/blank.fbcb9179.png",
+    "static/media/blue-candy.73120c15.png": "/react-crush/static/media/blue-candy.73120c15.png",
+    "static/media/green-candy.599f7016.png": "/react-crush/static/media/green-candy.599f7016.png",
+    "static/media/orange-candy.f106b2cd.png": "/react-crush/static/media/orange-candy.f106b2cd.png",
+    "static/media/purple-candy.ae25b8a5.png": "/react-crush/static/media/purple-candy.ae25b8a5.png",
+    "static/media/red-candy.3658b37c.png": "/react-crush/static/media/red-candy.3658b37c.png",
+    "static/media/yellow-candy.a3d87a9b.png": "/react-crush/static/media/yellow-candy.a3d87a9b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f592fe4.js",
+    "static/js/2.1f2f9eda.chunk.js",
+    "static/css/main.9e5cca86.chunk.css",
+    "static/js/main.e9b25e75.chunk.js"
+  ]
+}
