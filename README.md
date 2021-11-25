@@ -1,7 +1,6 @@
 # React Candy Crush
 
-## PLay in:
-``
+## Play here: [click me](https://brunomistro.github.io/react-crush/)
 
 ### `npm start`
-Runs the app in the development mode.\
+Runs the app in the development mode
